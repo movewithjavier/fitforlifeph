@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-size-base: 1.25rem; /* 20px, up from 1.125rem (18px) */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+body { background: #fff !important; color: #111 !important; }
+
+@theme {
+  --font-size-base: 1.25rem; /* 20px, up from 1.125rem (18px) */
+}
+
+/* Base styles */
+
+/*
+@layer base {
+  * {
+    @apply border border-gray-200;
+  }
+} 
+*/
