@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // No output: 'export' — use default for dynamic/SSR
 }
 module.exports = nextConfig; 
