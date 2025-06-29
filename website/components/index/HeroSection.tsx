@@ -6,13 +6,13 @@ import Link from 'next/link';
 const HERO_EYEBROW = 'Transform Your Workplace Wellness';
 const HERO_TITLE = (
   <>
-    Empower your team with expert-led wellness programs designed specifically for <span className="text-primary italic">Filipino workplaces.</span>
+    Empower your team with expert-led wellness workshops and webinars designed specifically for <span className="text-primary italic">Filipino workplaces.</span>
   </>
 );
-const HERO_CTA_LABEL = 'Schedule a Consultation';
-const HERO_CTA_ARIA = 'Book a consultation call with FitForLife.ph';
-const HERO_IMG_SRC = '/assets/workplace-wellness.svg';
-const HERO_IMG_ALT = 'Happy and healthy employees in a modern workplace';
+const HERO_CTA_LABEL = "Let's plan something for your team";
+const HERO_CTA_ARIA = 'Start planning a wellness workshop or webinar for your team with FitForLife.ph';
+const HERO_IMG_SRC = 'https://images.unsplash.com/photo-1515168833906-d2a3b82b302a?auto=format&fit=crop&w=800&q=80';
+const HERO_IMG_ALT = 'A facilitator leading a group workshop session, representing onsite corporate wellness workshops and training.';
 
 const HeroSection: React.FC = () => {
   const { scrollY } = useViewportScroll();
@@ -30,6 +30,13 @@ const HeroSection: React.FC = () => {
     if (ref.current) observer.observe(ref.current);
     return () => { if (ref.current) observer.unobserve(ref.current); };
   }, []);
+
+  const handleScrollToContact = () => {
+    const contactSection = document.getElementById('contact-section');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <section className="relative bg-gradient-to-br from-blue-50 to-green-50 py-16 md:py-24 px-4 sm:px-6 xl:px-32 overflow-hidden">
@@ -71,17 +78,19 @@ const HeroSection: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-            Corporate wellness solutions through webinars, workshops, and training programs designed to help modern Filipino employees improve their health and achieve broader life goals.
+            Corporate wellness solutions through engaging webinars and interactive workshops designed to help modern Filipino employees improve their health and achieve broader life goals.
           </p>
           
-          <Link
-            href="/contact"
-            role="button"
-            aria-label={HERO_CTA_ARIA}
-            className="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full text-lg md:text-xl font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500 transition shadow-lg"
-          >
-            {HERO_CTA_LABEL}
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+            <button
+              type="button"
+              onClick={handleScrollToContact}
+              aria-label={HERO_CTA_ARIA}
+              className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full text-lg md:text-xl font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500 transition shadow-lg text-center"
+            >
+              {HERO_CTA_LABEL}
+            </button>
+          </div>
         </motion.div>
         
         {/* Right column: Image (desktop/tablet only) */}

@@ -9,7 +9,6 @@
 # Ignore node_modules and build output inside website
 website/node_modules/
 website/.next/
-website/out/
 website/.env*
 
 # Ignore Python venv and editor files

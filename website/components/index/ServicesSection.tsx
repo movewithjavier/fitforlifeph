@@ -2,28 +2,21 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { 
   PresentationChartLineIcon, 
-  UserGroupIcon, 
-  AcademicCapIcon 
+  UserGroupIcon
 } from '@heroicons/react/24/outline';
 
 const services = [
   {
     icon: PresentationChartLineIcon,
-    title: 'Corporate Webinars',
-    description: 'Engaging virtual sessions on health, wellness, and work-life balance.',
+    title: 'Online Webinars',
+    description: 'One-time, easy-to-join virtual sessions on health, wellness, and work-life balance for your team.',
     color: 'text-blue-600'
   },
   {
     icon: UserGroupIcon,
-    title: 'Wellness Workshops',
-    description: 'Interactive in-person workshops for team building and wellness education.',
+    title: 'On-site Workshops',
+    description: '1 hour, half-day, or full-day in-person sessions to learn about health in a fun, interactive way.',
     color: 'text-green-600'
-  },
-  {
-    icon: AcademicCapIcon,
-    title: 'Training Programs',
-    description: 'Comprehensive wellness training for HR and management teams.',
-    color: 'text-purple-600'
   }
 ];
 
@@ -46,7 +39,7 @@ const ServicesSection: React.FC = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={service.title}

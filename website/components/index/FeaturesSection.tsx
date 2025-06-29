@@ -11,25 +11,25 @@ const features = [
   {
     icon: MapPinIcon,
     title: 'Local Expertise',
-    description: 'Programs tailored for Filipino workplace culture and needs.',
+    description: 'Deep understanding of Filipino workplace culture—our workshops and webinars are designed for your team’s real needs.',
     color: 'text-blue-600'
   },
   {
     icon: CheckBadgeIcon,
     title: 'Proven Results',
-    description: 'Track record of improving employee wellness and productivity.',
+    description: 'Measurable improvements in employee wellness, engagement, and productivity for our clients.',
     color: 'text-green-600'
   },
   {
     icon: UserIcon,
     title: 'Expert Trainers',
-    description: 'Certified professionals with years of experience.',
+    description: 'Sessions led by certified professionals who make learning practical, inspiring, and fun.',
     color: 'text-purple-600'
   },
   {
     icon: CogIcon,
     title: 'Flexible Solutions',
-    description: 'Customizable programs to fit your company\'s specific needs.',
+    description: 'Choose from webinars or onsite workshops—customized to your goals, schedule, and budget.',
     color: 'text-orange-600'
   }
 ];
@@ -49,7 +49,7 @@ const FeaturesSection: React.FC = () => {
             Why Choose FitForLife.ph?
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            We understand the unique challenges of Filipino workplaces and deliver solutions that work
+            We help Filipino organizations create healthier, happier, and more productive teams with educational workshops and webinars that truly fit your culture.
           </p>
         </motion.div>
 

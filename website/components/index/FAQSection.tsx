@@ -5,19 +5,19 @@ import { ChevronDownIcon } from '@heroicons/react/24/outline';
 const faqs = [
   {
     question: 'What types of companies do you work with?',
-    answer: 'We work with companies of all sizes across various industries, including BPO, finance, technology, healthcare, and other office-based sectors. Our programs are customizable to meet your specific needs.'
+    answer: 'We work with companies of all sizes across various industries, including BPO, finance, technology, healthcare, and other office-based sectors. Our workshops and webinars are customizable to meet your specific needs.'
   },
   {
-    question: 'How long are your programs?',
-    answer: 'Program duration varies based on your needs. We offer everything from one-time webinars to comprehensive multi-month training programs. Each program is tailored to your company\'s goals and schedule.'
+    question: 'How long are your workshops or webinars?',
+    answer: 'Session length varies based on your needs. We offer everything from one-time webinars to in-depth, multi-session workshop series. Each workshop or webinar is tailored to your company\'s goals and schedule.'
   },
   {
-    question: 'Do you offer virtual programs?',
-    answer: 'Yes, we offer both virtual and in-person programs. Our virtual programs are designed to be engaging and interactive, ensuring maximum participation and learning outcomes.'
+    question: 'Do you offer virtual workshops or webinars?',
+    answer: 'Yes, we offer both virtual and in-person workshops and webinars. Our virtual sessions are designed to be engaging and interactive, ensuring maximum participation and learning outcomes.'
   },
   {
-    question: 'What makes your programs Filipino-focused?',
-    answer: 'Our programs are specifically designed with Filipino workplace culture in mind, including local health challenges, work-life balance issues, and cultural considerations that are unique to Filipino employees.'
+    question: 'What makes your workshops and webinars Filipino-focused?',
+    answer: 'Our workshops and webinars are specifically designed with Filipino workplace culture in mind, including local health challenges, work-life balance issues, and cultural considerations that are unique to Filipino employees.'
   }
 ];
 
@@ -42,7 +42,7 @@ const FAQSection: React.FC = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-gray-600">
-            Get answers to common questions about our wellness programs
+            Get answers to common questions about our wellness workshops and webinars
           </p>
         </motion.div>
 
