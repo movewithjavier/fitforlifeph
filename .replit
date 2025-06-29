@@ -5,6 +5,4 @@ run = "cd website && npm start"
 channel = "stable-24_05"
 
 [deployment]
-build = ["sh", "-c", "cd website && npm install && npm run build"]
-deploymentTarget = "static"
-publicDir = "website/out" 
+build = ["sh", "-c", "cd website && npm install && npm run build"] 
