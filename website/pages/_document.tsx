@@ -5,8 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* Primary SEO Meta Tags */}
-        <meta name="description" content="Leading corporate wellness solutions in the Philippines. Transform your workplace with expert health programs, employee wellness initiatives, and workplace wellness consulting. Serving Manila, Cebu, and nationwide. Book free consultation today!" />
-        <meta name="keywords" content="corporate wellness Philippines, workplace wellness programs Manila, employee health programs Philippines, corporate fitness Philippines, workplace wellness solutions, employee wellness Philippines, corporate health programs Manila, workplace wellness consulting" />
+        <meta name="description" content="Expert-led corporate wellness webinars and workshops in the Philippines. Transform your workplace with professional health training, employee wellness workshops, and expert corporate wellness speaker services. Serving Manila, Cebu, and nationwide. Book expert speaker today!" />
+        <meta name="keywords" content="corporate wellness webinars Philippines, workplace wellness workshops Manila, employee health webinars Philippines, corporate wellness training Philippines, workplace wellness expert Philippines, corporate wellness speaker Philippines, workplace wellness consultant Manila, employee wellness workshops Philippines" />
         <meta name="author" content="FitForLife.ph" />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#f7f7f7" />
@@ -15,8 +15,8 @@ export default function Document() {
         <link rel="canonical" href="https://fitforlife.ph" />
         
         {/* Open Graph / Social Meta Tags */}
-        <meta property="og:title" content="FitForLife.ph – #1 Corporate Wellness Solutions Philippines | Workplace Health Programs" />
-        <meta property="og:description" content="Transform your workplace with our comprehensive corporate wellness programs in the Philippines. Expert health coaching, fitness programs, and wellness consulting for Manila, Cebu, and nationwide companies." />
+        <meta property="og:title" content="FitForLife.ph – Expert Corporate Wellness Webinars & Workshops Philippines | Workplace Health Training" />
+        <meta property="og:description" content="Transform your workplace with expert-led corporate wellness webinars and one-day workshops in the Philippines. Professional health training and wellness workshops for Manila, Cebu, and nationwide companies." />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://fitforlife.ph/og-image.jpg" />
         <meta property="og:url" content="https://fitforlife.ph" />
@@ -25,8 +25,8 @@ export default function Document() {
         
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="FitForLife.ph – Corporate Wellness Solutions Philippines" />
-        <meta name="twitter:description" content="Leading workplace wellness programs in the Philippines. Transform employee health and productivity with our expert corporate wellness solutions." />
+        <meta name="twitter:title" content="FitForLife.ph – Expert Corporate Wellness Webinars & Workshops Philippines" />
+        <meta name="twitter:description" content="Expert-led workplace wellness webinars and workshops in the Philippines. Transform employee health and productivity with our professional corporate wellness training." />
         <meta name="twitter:image" content="https://fitforlife.ph/twitter-image.jpg" />
         
         {/* Local Business Meta Tags */}

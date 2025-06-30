@@ -15,7 +15,7 @@ export default function StructuredData({ type, data }: StructuredDataProps) {
           "name": "FitForLife.ph",
           "url": "https://fitforlife.ph",
           "logo": "https://fitforlife.ph/logo.png",
-          "description": "Leading corporate wellness solutions provider in the Philippines, helping companies create healthier workplaces through comprehensive wellness programs.",
+          "description": "Expert corporate wellness speaker and workshop facilitator in the Philippines, helping companies create healthier workplaces through professional webinars and one-day workshops.",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "PH",
@@ -38,7 +38,7 @@ export default function StructuredData({ type, data }: StructuredDataProps) {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": "FitForLife.ph",
-          "description": "Corporate wellness solutions and workplace health programs in the Philippines",
+          "description": "Expert corporate wellness speaker and workshop facilitator in the Philippines",
           "url": "https://fitforlife.ph",
           "telephone": "+63-XXX-XXX-XXXX",
           "address": {
@@ -62,22 +62,30 @@ export default function StructuredData({ type, data }: StructuredDataProps) {
           },
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
-            "name": "Corporate Wellness Services",
+            "name": "Expert Corporate Wellness Services",
             "itemListElement": [
               {
                 "@type": "Offer",
                 "itemOffered": {
                   "@type": "Service",
-                  "name": "Workplace Wellness Programs",
-                  "description": "Comprehensive employee wellness programs"
+                  "name": "Corporate Wellness Webinars",
+                  "description": "Expert-led corporate wellness webinars for companies"
                 }
               },
               {
                 "@type": "Offer",
                 "itemOffered": {
                   "@type": "Service",
-                  "name": "Health Coaching",
-                  "description": "Personalized health coaching for employees"
+                  "name": "Workplace Wellness Workshops",
+                  "description": "Professional one-day wellness workshops for employees"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Corporate Wellness Speaker",
+                  "description": "Expert corporate wellness speaker services"
                 }
               }
             ]
@@ -120,8 +128,8 @@ export default function StructuredData({ type, data }: StructuredDataProps) {
         return {
           "@context": "https://schema.org",
           "@type": "Service",
-          "name": "Corporate Wellness Solutions",
-          "description": "Comprehensive workplace wellness programs designed for Philippine companies to improve employee health, productivity, and workplace culture.",
+          "name": "Expert Corporate Wellness Webinars & Workshops",
+          "description": "Expert-led corporate wellness webinars and one-day workshops designed for Philippine companies to improve employee health, productivity, and workplace culture.",
           "provider": {
             "@type": "Organization",
             "name": "FitForLife.ph"
@@ -130,8 +138,8 @@ export default function StructuredData({ type, data }: StructuredDataProps) {
             "@type": "Country",
             "name": "Philippines"
           },
-          "serviceType": "Corporate Wellness",
-          "category": "Health and Wellness"
+          "serviceType": "Expert Corporate Wellness Training",
+          "category": "Professional Health Training"
         };
 
       default:
