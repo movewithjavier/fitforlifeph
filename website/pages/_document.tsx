@@ -5,11 +5,11 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* SEO Meta Tags */}
-        <meta name="description" content="Unlock your team's creative potential and build a culture of experimentation with Javier P Gomez. Workshops, coaching, and keynotes for high-performing teams." />
+        <meta name="description" content="FitForLife.ph provides corporate wellness solutions in the Philippines. Transform your workplace with our expert health and wellness programs. Book a free consultation today!" />
         <meta name="theme-color" content="#f7f7f7" />
         {/* Open Graph / Social Meta Tags */}
-        <meta property="og:title" content="Javier P Gomez – Experimentation Coach & Facilitator" />
-        <meta property="og:description" content="Unlock your team's creative potential and build a culture of experimentation with Javier P Gomez." />
+        <meta property="og:title" content="FitForLife.ph – Corporate Wellness Solutions Philippines" />
+        <meta property="og:description" content="FitForLife.ph provides corporate wellness solutions in the Philippines. Transform your workplace with our expert health and wellness programs. Book a free consultation today!" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/assets/hero-placeholder.jpg" />
         <meta property="og:url" content="https://yourdomain.com" />

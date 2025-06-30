@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Javier P Gomez – Experimentation Coach & Facilitator</title>
+        <title>FitForLife.ph – Corporate Wellness Solutions Philippines</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Component {...pageProps} />
