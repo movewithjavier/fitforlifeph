@@ -6,6 +6,7 @@
 !replit.nix
 !website/
 !README.md
+!vercel.json
 
 # Ignore node_modules and build output inside website
 website/node_modules/
