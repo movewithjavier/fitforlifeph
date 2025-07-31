@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // No output: 'export' — use default for dynamic/SSR
+  // Vercel deployment configuration
+  // Using default dynamic/SSR setup for Vercel
+  experimental: {
+    // Enable app directory features if needed
+  },
+  // Ensure proper image optimization
+  images: {
+    unoptimized: false,
+  },
 }
-module.exports = nextConfig; 
+
+module.exports = nextConfig 
