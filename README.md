@@ -25,28 +25,22 @@ The website is designed to convert visitors into consultation call bookings, wit
 
 ## Technology Stack
 
-- HTML5 with semantic markup
-- CSS3 with modern features (flexbox, grid, variables)
-- Vanilla JavaScript for essential functionality
-- Google Fonts (Montserrat and Open Sans)
-- No heavy frameworks or libraries for optimal performance
+- Next.js with TypeScript
+- Tailwind CSS for styling
+- React components for modularity
+- Optimized for Vercel deployment
 
 ## Project Structure
 
 ```
 /
-├── index.html                  # Main (and only) HTML file
-├── css/
-│   ├── styles.css              # Main stylesheet with variables and structure
-│   ├── normalize.css           # CSS reset/normalize
-│   └── components/             # Component-specific styles
-├── js/
-│   ├── main.js                 # Main JavaScript file
-│   ├── smooth-scroll.js        # Smooth scrolling between sections
-│   └── components/             # Component-specific scripts
-├── assets/
-│   ├── images/                 # Image files organized by section
-│   └── fonts/                  # Web fonts (if not using Google Fonts)
+├── website/                    # Next.js application
+│   ├── pages/                  # Next.js pages
+│   ├── components/             # React components
+│   ├── public/                 # Static assets
+│   ├── package.json            # Dependencies
+│   └── next.config.js          # Next.js configuration
+├── vercel.json                 # Vercel deployment config
 └── README.md                   # Project README
 ```
 
@@ -54,36 +48,42 @@ The website is designed to convert visitors into consultation call bookings, wit
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/fitforlifeph.git
+   git clone https://github.com/movewithjavier/fitforlifeph.git
    cd fitforlifeph
    ```
 
-2. Set up a local development server:
+2. Navigate to the website directory and install dependencies:
    ```bash
-   # Using Python's built-in server
-   python3 -m http.server 8000
-   
-   # Or using Node's http-server (if installed)
-   npx http-server
+   cd website
+   npm install
    ```
 
-3. Open the site in your browser:
+3. Start the development server:
+   ```bash
+   npm run dev
    ```
-   http://localhost:8000
+
+4. Open the site in your browser:
+   ```
+   http://localhost:3000
    ```
 
 ## Development Guidelines
 
-- Follow semantic HTML5 markup
-- Use BEM naming convention for CSS classes
-- Keep JavaScript vanilla and minimal
+- Follow React and TypeScript best practices
+- Use Tailwind CSS for styling
+- Keep components modular and reusable
 - Optimize all images before committing
 - Test across different devices and browsers
 - Ensure accessibility compliance
 
 ## Deployment
 
-The site is deployed on Replit, which automatically pulls from the GitHub repository. No direct editing on Replit is allowed - all changes must be made locally and pushed to GitHub.
+The site is deployed on Vercel with the following configuration:
+- **Root Directory**: `website` (set in Vercel dashboard)
+- **Framework**: Next.js (auto-detected)
+- **Build Command**: `npm run build`
+- **Output Directory**: `.next`
 
 ## Contributing
 
